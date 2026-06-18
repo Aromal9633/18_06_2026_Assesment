@@ -54,4 +54,18 @@ print("Sum is ",sum)
 average=sum/len(numbers)
 print("Average is :",average)
 
+#Reverse a list
+
+list1=[1,2,3,4,5,6]
+print("Reverse of the list1",list1[::-1])
+
+#Turn every item of a list into its square
+
+list1=[2,4,6,8,10]
+square=[]
+for i in list1:
+    square.append(i*i)
+print("List Item Square",square)
+
+
 
