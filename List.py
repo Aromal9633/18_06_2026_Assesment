@@ -43,3 +43,15 @@ print("Elements in List:")
 for i in lst:
     print(i)
 
+#Sum and average of all numbers in a list
+
+numbers=[1,2,3,4,5,6,7]
+sum=0
+for i in numbers:
+    sum+=i
+print("Sum is ",sum)
+
+average=sum/len(numbers)
+print("Average is :",average)
+
+
