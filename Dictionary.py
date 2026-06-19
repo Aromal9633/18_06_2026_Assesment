@@ -129,3 +129,18 @@ print(d)
 d = {'a': 10, 'b': 5, 'c': 8}
 min_key = min(d, key=d.get)
 print(min_key)
+
+#Sort Dictionary by Keys
+
+
+dict1 = {"d": 3, "c": 5, "b": 1, "a": 2}
+sorted_dict = dict(sorted(dict1.items()))
+print(sorted_dict)
+
+
+#Sort Dictionary by Values
+
+d = {'a': 10, 'b': 5, 'c': 8}
+
+sorted_dict = dict(sorted(d.items(), key=lambda item: item[1]))
+print(sorted_dict)
