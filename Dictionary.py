@@ -144,3 +144,15 @@ d = {'a': 10, 'b': 5, 'c': 8}
 
 sorted_dict = dict(sorted(d.items(), key=lambda item: item[1]))
 print(sorted_dict)
+
+
+#Check if All Values are Unique
+
+
+d = {'a': 1, 'b': 2, 'c': 3}
+
+values = d.values()
+
+print(len(values) == len(set(values)))
+
+
