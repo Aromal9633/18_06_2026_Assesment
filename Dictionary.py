@@ -68,3 +68,53 @@ for k,v in my_dict.items():
     inverted[v]=k
 print(inverted)
 
+#Access Nested Dictionary
+
+
+students = {
+    "s1": {"name": "Aromal", "age": 26, "place": "Trivandrum"},
+    "s2": {"name": "John", "age": 24, "place": "Chennai"}
+}
+
+print(students["s1"]["name"])
+
+
+#Print the value of key ‘history’ from nested dic
+
+student={"name":"Aromal","Marks":{"comp":50,"history":60,"Chem":90}}
+print("Marks obtained by student for history is:",student["Marks"]["history"])
+
+#Initialize dictionary with default values
+
+keys = ['a', 'b', 'c']
+d = dict.fromkeys(keys, 0)
+print(d)
+
+d = {}
+for k in ['a', 'b', 'c']:
+    d[k] = 0
+
+print(d)
+
+#Delete a list of keys from a dictionary
+
+
+d = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+keys_to_remove = ['a', 'c']
+for key in keys_to_remove:
+    d.pop(key)
+print("List after Deleting:",d)
+
+
+#Check if a value exists in a dictionary
+
+
+d = {'a': 1, 'b': 2, 'c': 3}
+
+value_to_check = 2
+if value_to_check in d.values():
+    print("Exists")
+else:
+    print("Not exists")
+
+    

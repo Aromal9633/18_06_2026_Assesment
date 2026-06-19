@@ -50,3 +50,14 @@ uni_list=len(unique1)
 print(unique1)
 print("count of unique words are:",uni_list)
 
+#Set Intersection Update
+
+
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+
+set1.intersection_update(set2)
+print(set1)
+
+
+
