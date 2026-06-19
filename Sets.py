@@ -55,9 +55,16 @@ print("count of unique words are:",uni_list)
 
 set1 = {1, 2, 3, 4}
 set2 = {3, 4, 5, 6}
-
+print(set1.intersection(set2))
 set1.intersection_update(set2)
 print(set1)
 
+#Set Difference Update
+
+
+s = {1, 2, 3, 4, 5}
+remove_items = {2, 4}
+s.difference_update(remove_items)
+print(s)
 
 
