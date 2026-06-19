@@ -59,3 +59,55 @@ t2 = (4, 5, 6)
 t1, t2 = t2, t1
 print("t1:", t1)
 print("t2:", t2)
+
+
+#Copy Specific Elements From Tuple
+
+
+t = (10, 20, 30, 40, 50)
+
+new_t = (t[1], t[3])
+
+print(new_t)
+
+#List to Tuple
+
+list1=[1,2,3,4,5,6]
+tuple_list=tuple(list1)
+print(tuple_list)
+
+#Remove Items From Set Simultaneously
+
+
+s = {1, 2, 3, 4, 5}
+remove_items = {2, 4}
+
+s.difference_update(remove_items)
+print(s)
+
+#Check Subset
+
+set1 = {1, 2,3,4,5}
+set2 = {1, 2, 3, 4}
+
+print(set2.issubset(set1))
+
+#Check Superset
+
+
+set1 = {1, 2, 3, 4}
+set2 = {1, 2}
+print(set1.issuperset(set2))
+
+#Set Symmetric Difference Update
+
+
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+
+set1.symmetric_difference_update(set2)
+print(set1)
+
+
+
+
