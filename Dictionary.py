@@ -117,4 +117,15 @@ if value_to_check in d.values():
 else:
     print("Not exists")
 
-    
+#Rename key of a dictionary
+
+d = {'a': 1, 'b': 2, 'c': 3}
+d['d']=d.pop("a")
+print(d)
+
+
+#Get the key of a minimum value
+
+d = {'a': 10, 'b': 5, 'c': 8}
+min_key = min(d, key=d.get)
+print(min_key)
