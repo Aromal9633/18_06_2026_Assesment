@@ -42,7 +42,7 @@ print(merge)
 tuple1=(50,)
 print(tuple1)
 
-#Unpack the tuple into 4 variables
+#Unpack the tuple into 4 variabless
 
 tuple1=(1,2,3,4)
 a,b,c,d=tuple1
